@@ -1,0 +1,63 @@
+#meanTable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#meanTable td, #meanTable th {
+    border: 2px solid black;
+}
+
+#meanTable td {
+    padding-left:5px;
+    padding-right:5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#meanTable th {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: center;
+    background-color:#dbd8d8;
+    color: black;
+}
+.firstTdColor{
+    background-color:#dbd8d8;
+}
+
+#firstRow td{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#tableBottomPart {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#tableBottomPart td{
+    border: 1px solid black;
+    padding: 16px;
+}
+
+#headerTable{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#headerTable td{
+    border: 0px solid black;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+
+.headerAddress{
+    background-color:#dbd8d8;
+    font-style: oblique;
+    font-size: 20px;
+    text-align:center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+

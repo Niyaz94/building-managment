@@ -1,0 +1,26 @@
+#monthly_table td, #monthly_table th{
+    text-align:center;
+}
+.infoPrint{
+    display: none !important;
+}
+@media print{   
+
+    .infoPrint{
+        display: block !important;
+        text-align:center;
+    }   
+    .print_style{
+        display: none !important;
+    }
+    #monthly_table td,#monthly_table th{
+        border:2px solid black;
+    }
+    @page {
+        size: 8.5in 11in landscape;
+        margin: 0cm; 
+    }
+}
+#monthly_table td,#monthly_table th{
+        border:2px solid grey;
+}

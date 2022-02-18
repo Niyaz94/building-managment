@@ -1,0 +1,40 @@
+#monthly_table td, #monthly_table th{
+    text-align:center;
+}
+.infoPrint{
+    display: none !important;
+}
+@media print{   
+    .infoPrint{
+        display: block !important;
+        text-align:center;
+    }   
+    .print_style{
+        display: none !important;
+    }
+    #monthly_table td,#monthly_table th{
+        border:2px solid black;
+    }
+    @page {
+        margin-top: 0.5cm; 
+        margin-bottom: 0.5cm; 
+        @top-center {
+            content: element(pageHeader);
+        }
+        @bottom-center {
+            content: element(pageFooter);
+        }
+    }
+    #pageHeader{
+        position: running(pageHeader);
+    }
+    #pageFooter{
+        position: running(pageFooter);
+    }
+    .coulmnMonthDebt{
+        width:30%;
+    }
+}
+#monthly_table td,#monthly_table th{
+        border:2px solid grey;
+}

@@ -1,0 +1,42 @@
+#monthly_table td, #monthly_table th{
+    text-align:center;
+}
+.mainContainer{
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom: 50px;
+}
+.infoPrint{
+    display: none !important;
+}
+@media print{   
+    .infoPrint{
+        display: block !important;
+        text-align:center;
+    }   
+    .print_style{
+        display: none !important;
+    }
+    #monthly_table td,#monthly_table th{
+        border:2px solid black;
+    }
+    @page {
+        margin-top: 0.5cm; 
+        margin-bottom: 0.5cm; 
+        @top-center {
+            content: element(pageHeader);
+        }
+        @bottom-center {
+            content: element(pageFooter);
+        }
+    }
+    #pageHeader{
+        position: running(pageHeader);
+    }
+    #pageFooter{
+        position: running(pageFooter);
+    }
+}
+#monthly_table td,#monthly_table th{
+        border:2px solid grey;
+}

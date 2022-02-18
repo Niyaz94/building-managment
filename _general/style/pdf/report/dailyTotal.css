@@ -1,0 +1,45 @@
+#meanTable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+    page-break-inside: auto;
+}
+#meanTable td, #meanTable th {
+    border: 1px solid rgba(151, 146, 146, 0.329);
+}
+#meanTable td ,#meanTable th {
+    padding-left:10px;
+    padding-right:10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align:center;
+}
+#meanTable th {
+    background-color:#06a9f4;
+    color:white;
+}
+     
+
+.buttonClasses {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+    page-break-inside: auto;
+}
+.buttonClasses td, .buttonClasses th {
+    border: 1px solid rgba(151, 146, 146, 0.329);
+}
+.buttonClasses td ,.buttonClasses th {
+    padding-left:5px;
+    padding-right:5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align:center;
+}
+.buttonClasses th {
+    background-color:#06a9f4;
+    color:white;
+}
+    
